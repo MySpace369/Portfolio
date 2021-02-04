@@ -1,0 +1,123 @@
+body {
+    font-family: sans-serif;
+    width: 0 auto;
+    background-color: #2F4F4F;
+  }
+  
+  header {
+    color: White;
+    text-align: center;
+  }
+  
+  .logo {
+    width: 100px;
+    text-align: center;
+  }
+  
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  #bio {
+    display: flex;
+    width: 100%;
+    border: 2px solid white;
+  }
+  
+  #bio1 {
+    width: 100%;
+  }
+  
+  #name-date {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+  }
+  
+  .me {
+    height: 240px;
+    width: 240px;
+  }
+  .name {
+    margin: 5px;
+    font-size: 1.50em;
+    font-weight: bold;
+    color: 	#D3D3D3;
+  }
+  .timeformat {
+    color: #D3D3D3;
+  }
+  
+  h4 {
+    width: 500px;
+    color: white;
+    padding: 5px;
+    
+  }
+  ul {
+    list-style-type: square;
+    width: 630px;
+    margin: 5px;
+    background: red;
+    color: white;
+    border: solid;
+    border-radius: 1em;
+    border-width: max;
+  }
+  
+  h3 {
+    color: white;
+    padding: 50px;
+  }
+  
+  .description {
+    color: white;
+    border: solid;
+    border-radius: 1em;
+    border-width: max;
+    margin: 0;
+    background: red;
+  }
+  
+  #tech {
+    display: flex;
+    #justify-content: space-between;
+    flex-wrap: wrap;
+    width: auto;
+  }
+  
+  figure {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    max-width: 220px;
+    height: 220px;
+    margin: 20px;
+  }
+  
+  figure img {
+    width: 200px;
+  }
+  
+  figcaption {
+    color: white;
+    text-align: center;
+    border: solid;
+    border-color: white;
+  }
+  
+  figure > img {
+    height: 270px;
+  }
+  
+  .header5 {
+    width: max;
+  }
+  
+  footer {
+    color: white;
+    font-size: .8em;
+    text-align: center;
+    margin: 30px;
+  }
